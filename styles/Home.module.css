@@ -1,0 +1,45 @@
+/* styles/Home.module.css */
+
+.container {
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    background-color: #262633; /* Dark background color */
+    color: white; /* White text color for contrast */
+    padding: 20px; /* Padding for some space */
+    box-sizing: border-box; /* Include padding in height/width calculations */
+  }
+  
+  .title {
+    margin: 0; /* Remove default margin */
+    font-size: 2rem; /* Optional: adjust font size */
+  }
+  
+  .subtitle {
+    margin: 0; /* Remove default margin */
+    font-size: 1.5rem; /* Optional: adjust font size */
+    text-align: center; /* Center align subtitle text */
+  }
+  
+  /* Add styles for the FileInput */
+  .fileInput {
+    border-radius: 20px; /* Make the button rounded */
+    padding: 15px; /* Increase padding for larger button */
+    background-color: #262633; /* Change background color */
+    color: white; /* White text color */
+    font-size: 1.1rem; /* Larger font size */
+    width: 250px; /* Set width */
+    cursor: pointer; /* Change cursor to pointer */
+  }
+  
+  .fileInputLabel {
+    margin-bottom: 10px; /* Add space between label and input */
+  }
+  
+  .fileInput:hover {
+    background-color: #343446; /* Darken on hover */
+  }
+  

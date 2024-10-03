@@ -1,0 +1,60 @@
+/* styles/Sidebar.module.css */
+
+.sidebar {
+    z-index: 80;
+    width: 100px; /* Adjusted width of the sidebar */
+    height: 100vh; /* Full height of the viewport */
+    background-color: #343446; /* Dark background color */
+    color: #ecf0f1; /* Light text color */
+    padding: 20px; /* Padding around the content */
+    position: fixed; /* Fix the sidebar to the left */
+    left: 0; /* Align to the left */
+    top: 0; /* Align to the top */
+    overflow-y: auto; /* Scroll if content overflows */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Subtle shadow effect */
+    transition: transform 0.3s ease; /* Smooth transition for sidebar */
+  }
+  
+/* styles/Sidebar.module.css */
+
+.toggleButton {
+    position: fixed; /* Fixed position for the button */
+    left: 0; /* Align to the leftmost side */
+    top: 20px; /* Adjust top position as needed */
+    padding: 10px 15px; /* Padding for the button */
+    background-color: #343446; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+    z-index: 1000; /* Ensure the button is above other elements */
+  }
+  
+  .toggleButton:hover {
+    background-color: #343446; /* Darker blue on hover */
+  }
+  
+  
+  .sidebar nav {
+    display: flex; /* Use flexbox for navigation */
+    flex-direction: column; /* Stack links vertically */
+  }
+  
+  .sidebar nav a {
+    color: #ecf0f1; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 15px; /* Padding for links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+    margin-bottom: 10px; /* Space between links */
+  }
+  
+  .sidebar nav a:last-child {
+    margin-bottom: 0; /* Remove margin from the last link */
+  }
+  
+  .sidebar nav a:hover {
+    background-color: #343446; /* Change background on hover */
+  }
+  

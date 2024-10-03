@@ -1,0 +1,17 @@
+/* styles/globals.css */
+body {
+    font-family: sans-serif;
+    background-color: #0b0017;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  audio {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
